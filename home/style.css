@@ -1,0 +1,241 @@
+#logo {
+    width: 50px; 
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+    margin-right: 10px;  
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#toggleDarkMode {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 51%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.caja_Descripcion{
+    background-color: gray;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 90%;
+}
+
+.Descripcion{
+    background-color: gray;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 7vw;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.p_descripcion {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.caja_Slogan{
+    background-color: darkgray;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+.Slogan{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    font-style: italic;
+    text-transform: uppercase;
+} 
+
+.caja_Carousel{
+    background-color: lightgray;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 90%;
+}
+
+.Catalgo{
+    width: 100%;
+    max-width: 450px;
+    background-color: gray;
+    padding: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.carousel{
+    background-color: lightgray;
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-block{
+    width: 100%;
+    height: auto;
+}
+
+.titulos_carrusel{
+    font-family: "Barlow Condensed", sans-serif;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.btn-alerta {
+    margin: 10px auto;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+    display: block;
+    width: fit-content;
+}
+
+.btn-alerta:hover {
+    background-color: #6b6b6b; 
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: lightslategrey;
+}
+
+@media (max-width: 1024px) {
+    .Descripcion {
+        font-size: 6vw;
+    }
+
+    .Slogan {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Descripcion {
+        font-size: 5vw;
+    }
+
+    .Slogan {
+        font-size: 4vw;
+    }
+
+    .carousel {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .d-block {
+        height: auto;
+    }
+
+    .btn-alerta {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Descripcion {
+        font-size: 4vw;
+    }
+
+    .Slogan {
+        font-size: 3.5vw;
+    }
+
+    .Catalgo {
+        max-width: 280px;
+        font-size: 3.5vw;
+    }
+
+    .p_descripcion {
+        font-size: 18px;
+    }
+
+    .caja_Descripcion,
+    .caja_Slogan,
+    .caja_Carousel {
+        width: 95%;
+    }
+
+    .btn-alerta {
+        width: 100%;
+        max-width: 180px;
+    }
+}

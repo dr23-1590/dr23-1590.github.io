@@ -1,0 +1,85 @@
+#logo {
+    width: 50px; 
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+    margin-right: 10px;  
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+
+body.dark-mode h2 {
+    border-bottom: 2px solid #ffffff;
+}
+
+#toggleDarkMode {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 51%;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.p_politica, .ul_politica {
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: 1.6;
+    font-size: 24px;
+}
+
+.ul_politica {
+    font-family: "Barlow Condensed", sans-serif;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: lightslategrey;
+}
